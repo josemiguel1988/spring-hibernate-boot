@@ -1,0 +1,16 @@
+127.0.0.1 - - [22/Jan/2019:14:50:08 +0000] "GET / HTTP/1.1" 200 11488
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:50:29 +0000] "GET /web-customer-tracker/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:51:00 +0000] "GET /web-customer-tracker/customer/list HTTP/1.1" 500 19679
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:51:43 +0000] "GET /web-customer-tracker/customer/list HTTP/1.1" 200 2522
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:51:43 +0000] "GET /web-customer-tracker/resources/css/style.css HTTP/1.1" 200 1049
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:51:49 +0000] "GET /web-customer-tracker/customer/showFormForAdd HTTP/1.1" 200 1468
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:51:49 +0000] "GET /web-customer-tracker/resources/css/add-customer-style.css HTTP/1.1" 200 566
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:52:10 +0000] "POST /web-customer-tracker/customer/saveCustomer HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:52:10 +0000] "GET /web-customer-tracker/customer/list HTTP/1.1" 200 3081
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:52:13 +0000] "GET /web-customer-tracker/customer/showFormForUpdate?customerId=8 HTTP/1.1" 200 1505
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:52:18 +0000] "GET /web-customer-tracker/customer/list HTTP/1.1" 200 3081
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:52:20 +0000] "GET /web-customer-tracker/customer/showFormForUpdate?customerId=8 HTTP/1.1" 200 1505
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:52:23 +0000] "POST /web-customer-tracker/customer/saveCustomer HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:52:23 +0000] "GET /web-customer-tracker/customer/list HTTP/1.1" 200 3082
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:52:26 +0000] "GET /web-customer-tracker/customer/delete?customerId=8 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [22/Jan/2019:14:52:26 +0000] "GET /web-customer-tracker/customer/list HTTP/1.1" 200 2522
